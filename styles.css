@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bookCard {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(238, 236, 236);
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteButton {
+    background-color: rgb(233, 48, 48);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#newBookButton {
+    display: flex;
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleReadButton {
+    background-color: green;
+    margin-bottom: -100px;
+    color: white;
+}
+
+.readSelected {
+    background-color: red;
+}
+
+.readSelected:before {
+    content: 'Not ';
+}
